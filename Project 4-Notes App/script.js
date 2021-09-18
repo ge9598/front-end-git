@@ -31,7 +31,7 @@ function addNewNote(text = ''){
     const btnDelete = note.querySelector('.btnDelete');
     
     const main = note.querySelector('.main');
-    const textArea = note.querySelector('textarea');
+    const textArea = note.querySelector('textarea'); 
 
     textArea.value = text;
     main.innerHTML = text;
