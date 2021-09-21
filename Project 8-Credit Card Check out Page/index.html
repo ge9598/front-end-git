@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta  charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>Credit Card Check out Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        
+        <div class="checkout-container" id="checkout-container">
+            <h1> Credit Card Check out Page</h1>
+            <div class="payment-container">               
+                <div class="payment-method-container" id="payment-method-container">
+                    <h4>Payment Method</h4>
+                    <h5>Card Number</h5>
+                    <input type="text" id="card-number-input" class="card-number-input">
+                    <div class="date-cvc-container" id="date-cvc-container">
+                        <h5> Expiration Date</h5>
+                        <input type="text" class="exp-date-input" id="exp-date-input">
+                        <h5>CVC/CVV</h5>
+                        <input type="text" class="cvc-input" id="cvc-input">
+                    </div>
+                </div>
+                <div class="summary-container" id="summary-container">
+                    <h4>Summary</h4>
+                    <ul>
+                        <li>Bill Plan</li>
+                        <li>Total Cost</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
