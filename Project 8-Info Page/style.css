@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    min-height: 900px;
 }
 :root{
    --black: #333;
@@ -98,6 +98,7 @@ header .logo{
    z-index: 2;
    user-select: none;
    mix-blend-mode: screen;   
+   
 }
 .dark .main .mask{
     filter: invert(1);
@@ -124,8 +125,9 @@ header .logo{
     flex-direction: column;
     background-color: var(--white);
     z-index: 4;
-    transition: 0.5s;
+    transition: 0.4s;
     margin:0;
+    padding: 0;
 }
 
 .navigation.active{
@@ -159,4 +161,15 @@ header .logo{
 .block{
     
     display: none;
+}
+
+@media (max-width:768px) {
+    header{
+        padding: 20px 40px;
+    }
+    .copyRightText{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+    }
 }
